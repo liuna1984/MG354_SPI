@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: liu na, xlkj, LIC=0VR30-BFF7W-SDFK4-F3L6F-EUBXN-X74AC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+D:\MEMS_STM32F767VITx_M-354_SPI\MDK-ARM\MEMS_STM32F767VITx_IMU100N.uvprojx
+Project File Date:  02/13/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'MEMS_STM32F767VITx_IMU100N'
+compiling MG354_SPI.c...
+..\Code\Device\MG354.h(89): warning:  #1295-D: Deprecated declaration MG354_Init - give arg types
+  void MG354_Init();
+..\Code\Device\MG354.h(90): warning:  #1295-D: Deprecated declaration Read_IMU_Start - give arg types
+  void Read_IMU_Start();
+..\Code\Device\MG354.h(92): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Code\Device\MG354_SPI.c(233): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	pBuf->fAccX=(float)(0.2/65536) * XAccel/1000*9.8;
+..\Code\Device\MG354_SPI.c(234): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	pBuf->fAccY=(float)(0.2/65536) * YAccel/1000*9.8;
+..\Code\Device\MG354_SPI.c(235): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	pBuf->fAccZ=(float)(0.2/65536) * ZAccel/1000*9.8;
+..\Code\Device\MG354_SPI.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=16566 RO-data=570 RW-data=192 ZI-data=17080  
+"MEMS_STM32F767VITx_IMU100N\MEMS_STM32F767VITx_IMU100N.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\MEMS_STM32F767VITx_M-354_SPI\MDK-ARM\RTE\_MEMS_STM32F767VITx_IMU100N
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F7xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
